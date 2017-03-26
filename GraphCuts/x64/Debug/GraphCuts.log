@@ -1,0 +1,30 @@
+﻿生成启动时间为 2017/2/25 1:27:39。
+     1>项目“D:\project\C++\GraphCuts\GraphCuts\GraphCuts.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Image.cpp ImageSegmentation.cpp main.cpp
+         Image.cpp
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         ImageSegmentation.cpp
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cpp
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\project\c++\graphcuts\graphcuts\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+     1>d:\project\c++\graphcuts\graphcuts\main.cpp(171): warning C4715: “test”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\C++\GraphCuts\x64\Debug\GraphCuts.exe" /NOLOGO opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\project\C++\GraphCuts\x64\Debug\GraphCuts.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\C++\GraphCuts\x64\Debug\GraphCuts.lib" /MACHINE:X64 x64\Debug\Image.obj
+         x64\Debug\ImageSegmentation.obj
+         x64\Debug\lodepng.obj
+         x64\Debug\main.obj
+         x64\Debug\max_flow.obj
+         GraphCuts.vcxproj -> D:\project\C++\GraphCuts\x64\Debug\GraphCuts.exe
+     1>已完成生成项目“D:\project\C++\GraphCuts\GraphCuts\GraphCuts.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.62
